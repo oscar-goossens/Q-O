@@ -1,0 +1,37 @@
+a {
+	position: relative;
+	font-size: 100px;
+	display: block;
+  	text-decoration: none;
+  	color: red;
+  	font-family: 'VT323', monospace;
+  	transition: all 0.5s ease;
+  	border: 0px double violet;
+  	border-radius: 20px;
+  	text-align: center;
+  	top: 300px;
+}
+a:hover {
+ 	color: blue;
+ 	border: 15px double violet;
+  	border-radius: 20px;
+}
+input {
+	position: relative;
+	background-color: black;
+	font-size: 100px;
+	display: block;
+  	color: red;
+  	font-family: 'VT323', monospace;
+  	transition: all 0.5s ease;
+  	border: 0px double violet;
+  	border-radius: 20px;
+  	top: 270px;
+  	left: 42%;
+  	cursor: pointer;
+}
+input:hover {
+ 	color: blue;
+ 	border: 15px double violet;
+  	border-radius: 20px;
+}
