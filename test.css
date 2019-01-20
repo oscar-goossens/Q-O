@@ -1,37 +1,42 @@
+body {
+  background-image: url(https://previews.thenewsmarket.com/Previews/lamb/ExternalAssets/MasterImage/61909_v5.JPEG);
+}
 a {
 	position: relative;
+  cursor: pointer;
 	font-size: 100px;
 	display: block;
-  	text-decoration: none;
-  	color: red;
-  	font-family: 'VT323', monospace;
-  	transition: all 0.5s ease;
-  	border: 0px double violet;
-  	border-radius: 20px;
-  	text-align: center;
-  	top: 300px;
+  text-decoration: none;
+	color: yellow;
+	font-family: 'VT323', monospace;
+ 	transition: all 0.5s ease;
+	border: 0px double red;
+ 	border-radius: 20px;
+ 	text-align: center;
 }
 a:hover {
  	color: blue;
- 	border: 15px double violet;
-  	border-radius: 20px;
+ 	border: 15px double red;
+ 	border-radius: 20px;
 }
 input {
 	position: relative;
 	background-color: black;
 	font-size: 100px;
 	display: block;
-  	color: red;
-  	font-family: 'VT323', monospace;
-  	transition: all 0.5s ease;
-  	border: 0px double violet;
-  	border-radius: 20px;
-  	top: 270px;
-  	left: 42%;
-  	cursor: pointer;
+ 	color: yellow;
+ 	font-family: 'VT323', monospace;
+ 	transition: all 0.5s ease;
+ 	border: 0px double violet;
+ 	border-radius: 20px;
+ 	left: 42%;
+ 	cursor: pointer;
 }
 input:hover {
  	color: blue;
- 	border: 15px double violet;
-  	border-radius: 20px;
+ 	border: 15px double red;
+  border-radius: 20px;
+}
+.help {
+  cursor: help;
 }
